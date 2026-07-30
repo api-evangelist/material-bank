@@ -1,8 +1,25 @@
 aid: material-bank
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/material-bank.png
 name: Material Bank
-description: 'Material Bank is a company surfaced as a portfolio company of bain-capital-ventures, general-catalyst
-  and added to the API Evangelist network as a stub for enrichment. Sector: commerce. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Material Bank is a B2B digital marketplace that lets architects, interior
+  designers, and other design professionals search, sample, and specify building and
+  design materials from 650+ brands across hundreds of categories through a single
+  platform, with free overnight sample delivery. The platform provides project boards,
+  brand collections, sustainability filters (EPDs, CDPH), and a manufacturer portal
+  for brands. Backed by bain-capital-ventures and general-catalyst. This profile was
+  surfaced from a VC portfolio and enriched by the API Evangelist pipeline; no public
+  developer API surface was found.'
 url: https://raw.githubusercontent.com/api-evangelist/material-bank/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +30,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Commerce
+- Materials
+- Marketplace
+- Architecture
+- Interior Design
+- Samples
+- Building Products
+- Sustainability
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +48,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/material-bank-domain-security.yml
 - type: Website
   url: https://www.materialbank.com/
+- type: HelpCenter
+  url: https://www.materialbank.com/faqs
+- type: PrivacyPolicy
+  url: https://www.materialbank.com/privacy-notice
+- type: TermsOfService
+  url: https://www.materialbank.com/terms-of-use
+- type: SignUp
+  url: https://www.materialbank.com/customer/account/create
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

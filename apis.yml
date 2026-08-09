@@ -12,14 +12,12 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/material-bank.png
 name: Material Bank
-description: 'Material Bank is a B2B digital marketplace that lets architects, interior
-  designers, and other design professionals search, sample, and specify building and
-  design materials from 650+ brands across hundreds of categories through a single
-  platform, with free overnight sample delivery. The platform provides project boards,
-  brand collections, sustainability filters (EPDs, CDPH), and a manufacturer portal
-  for brands. Backed by bain-capital-ventures and general-catalyst. This profile was
-  surfaced from a VC portfolio and enriched by the API Evangelist pipeline; no public
-  developer API surface was found.'
+description: Material Bank is a B2B digital marketplace that lets architects, interior designers, and
+  other design professionals search, sample, and specify building and design materials from 650+ brands
+  across hundreds of categories through a single platform, with free overnight sample delivery. The platform
+  provides project boards, brand collections, sustainability filters (EPDs, CDPH), and a manufacturer
+  portal for brands. Backed by bain-capital-ventures and general-catalyst. This profile was surfaced from
+  a VC portfolio and enriched by the API Evangelist pipeline; no public developer API surface was found.
 url: https://raw.githubusercontent.com/api-evangelist/material-bank/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -30,7 +28,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-08-08'
 tags:
 - Company
 - Commerce
@@ -60,8 +58,14 @@ common:
   url: https://www.materialbank.com/terms-of-use
 - type: SignUp
   url: https://www.materialbank.com/customer/account/create
+- type: Login
+  url: https://www.materialbank.com/customer/account/login
+- type: Support
+  url: https://www.materialbank.com/contact
 x-enrichment:
   date: '2026-07-20'
   status: minimal
   artifacts_added: 1
   pass: local-v1
+x-merged-from:
+- materialbank
